@@ -1,0 +1,51 @@
+body{
+  font-family: Arial;
+  background-color: rgb(25,25,25);
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.button-edit{
+  padding: 30px 30px 30px 30px;
+  border-radius: 60px;
+  background-color: rgb(25,25,25);
+  border-style: solid;
+  border-width: 3px;
+  margin-right: 10px;
+}
+
+.emoji-edit{
+  height: 50px;
+  background-color:  rgb(25,25,25) ;
+}
+
+.result{
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.emoji{
+  height: 50px;
+}
+
+.result-info,
+.result-stats{
+  color: white;
+}
+
+.result-stats{
+  margin-top: 60px;
+}
+
+.reset-button{
+  padding: 9px 18px 9px 18px;
+}
+
+
+
