@@ -43,7 +43,8 @@ body{
   margin-top: 60px;
 }
 
-.reset-button{
+.reset-button,
+.autoplay-button{
   padding: 9px 18px 9px 18px;
 }
 

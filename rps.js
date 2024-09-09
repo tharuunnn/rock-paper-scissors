@@ -18,6 +18,23 @@ function computerMove(){
   return computersMove;
 }
 
+let isAutoPlaying = false;
+let intervalIndex;
+
+function autoPlay(){
+  if(!isAutoPlaying){
+    intervalIndex = setInterval(function(){
+      const playersMove = computerMove();
+      playGame(playersMove);
+    },1000)
+    isAutoPlaying = true;
+  }
+  else{
+    clearInterval(intervalIndex);
+    isAutoPlaying=false;
+  }
+}
+
 function playGame(playersMove){
   const computersMove = computerMove();
   let result='';
